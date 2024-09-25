@@ -5,7 +5,13 @@
     }
 
     .hamburger-btn {
-        display: inline-flex;
+        /* display: inline-flex; */
+        /*  */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        /*  */
     }
 
     .hamburger-btn span {
@@ -45,7 +51,7 @@
         margin: 1rem;
     }
 
-    .about-section {
+    /* .about-section {
         flex-direction: column;
     }
 
@@ -56,16 +62,34 @@
 
     .about-image-container {
         width: 100%;
-    }
+    } */
 
 }
 
+/* Table */
 @media (max-width: 1007px) {
     html {
         font-size: 12px;
     }
 
-    .project-card {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-image-container {
+        width: 80%;
+    }
+
+    .about-image-container img {
+        width: 30%;
+    }
+
+    .about-description-container {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    /* .project-card {
         width: 100%;
     }
 
@@ -78,5 +102,6 @@
 
     .project-card a {
         width: 100%;
-    }
+    } */
+    
 }
